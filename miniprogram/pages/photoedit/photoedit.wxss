@@ -9,9 +9,8 @@
 }
 .upload{
   position: fixed;
-  left: 160rpx;
+  left: 150rpx;
+  right: 150rpx;
   bottom: 160rpx;
-  width: 450rpx;
-  height: 90rpx;
-  font-size: 35rpx
+  border: 0;
 }

@@ -1,0 +1,35 @@
+/* pages/photoedit/photoeditor/photoeditor.wxss */
+.scene {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw
+}
+.scene-editor {
+  flex: 1;
+  margin-bottom: 10rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+.scene-template {
+  flex: 0 0 180rpx;
+  height: 180rpx;
+  background-color: #eee;
+  margin-bottom: 10rpx;
+}
+.scene-template image {
+  height: 100%;
+  width: 100%
+}
+.scene-button {
+  flex: 0 0 100rpx; 
+   margin: 10rpx;
+}
+.canvas {
+  width:100%;
+  height: 100%
+}
+.scene-item-active {
+  background: #00FFFF
+}

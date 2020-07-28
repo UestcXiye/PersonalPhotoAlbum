@@ -1,0 +1,26 @@
+{
+  "pages":[
+    "pages/home/home",
+      "pages/home/imgshow1/imgshow1",
+      "pages/home/imgshow2/imgshow2",
+      "pages/home/imgshow3/imgshow3",
+      "pages/home/imgshow4/imgshow4",
+      "pages/home/imgshow5/imgshow5",
+      "pages/home/imgshow6/imgshow6",
+    "pages/photoedit/photoedit",
+      "pages/photoedit/photoeditor/photoeditor",
+    "pages/logs/logs",
+    "pages/programlab/programlab",
+      "pages/programlab/testcloudfunction/login",
+      "pages/programlab/testdatabase/testdatabase",
+      "pages/programlab/testupload/testupload"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#1772cb",
+    "navigationBarTitleText": "个人相册ByUestcXiye",
+    "navigationBarTextStyle":"white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

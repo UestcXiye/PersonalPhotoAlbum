@@ -1,0 +1,22 @@
+<!--pages/home/imgshow6/imgshow6.wxml-->
+<button bindtap="CUImage6">选择图片并上传</button>
+<view id="imgsection">
+  <view class="imglist">
+    <block wx:for="{{image}}" wx:for-item="image" wx:key="*this">
+      <image class="imgitem" mode="widthFix" src="{{image.imgurl}}" />
+    </block>
+    <image class="imgitem" mode="widthFix" src="{{fileID}}"></image>
+  </view>
+</view>
+<view class="weui-flex">
+  <view class="weui-flex__item">
+    <view class="placeholder">
+      <button bindtap="scrollToTop">返回顶部</button>
+    </view>
+  </view>
+  <view class="weui-flex__item">
+    <view class="placeholder">
+      <button bindtap="navigateBack">返回上一页</button>
+    </view>
+  </view>
+</view>

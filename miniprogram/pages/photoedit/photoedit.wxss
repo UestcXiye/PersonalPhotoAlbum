@@ -1,0 +1,17 @@
+/* pages/photoedit/photoedit.wxss */
+.body{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden
+}
+.bg{
+  width:100%
+}
+.upload{
+  position: fixed;
+  left: 160rpx;
+  bottom: 160rpx;
+  width: 450rpx;
+  height: 90rpx;
+  font-size: 35rpx
+}

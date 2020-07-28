@@ -1,0 +1,31 @@
+<!--pages/programlab/testdatabase/testdatabase.wxml-->
+<view class="page__bd">
+    <view class="weui-article">
+        <view class="weui-article__h1">小程序端调用数据库</view>          
+        <view class="weui-article__section">
+            <button type="primary" bindtap="click">点击显示记录</button>
+            <view class="weui-article__p">在小程序端调用数据库的方式很简单，我们可以把代码写到一个事件处理函数里，然后点击组件触发事件处理函数来调用；也可以直接写到页面的生命周期函数里面；还可以把它写到 app.js 小程序的生命周期函数里面。编译之后，就能在控制台看到调用的 20 条数据库记录了（如果没有指定 limit，则默认最多取 20 条记录）。
+            </view>
+            <view class="weui-article__image">
+                <image mode="widthFix" src="../../../image/appdatabase.png"></image>
+            </view>
+        </view>
+        <view class="weui-article__h1">新增记录 Collection.add</view>
+        <view class="weui-article__section">
+            <button type="primary" bindtap="addDaily">新增日报数据</button>
+            <view class="weui-article__p">新建一个绑定了事件处理函数为 addDaily 的 button 按钮。在事件处理函数 addDaily 里调用 Collection.add，往集合 zhihu_daily 里添加一条记录，如果传入的记录对象没有 _id 字段，则由后台自动生成 _id；若指定了 _id，则不能与已有记录冲突。
+            </view>
+            <view class="weui-article__image">
+                <image mode="widthFix" src="../../../image/adddatabase.png"></image>
+            </view>
+        </view>
+        <view class="weui-article__h1">云函数调用数据库</view>
+        <view class="weui-article__section">
+            <view class="weui-article__p">使用云函数也可以调用数据库，使用开发者工具右键点击云函数根目录也就是 cloudfunctions 文件夹，选择新建 Node.js 云函数，云函数的名称命名为 zhihu_daily，然后打开 index.js，输入代码。然后右键点击 index.js，选择云函数增量上传：更新文件，我们既可以使用云函数的本地调试（要本地调试需要使用 npm install 安装 wx-server-sdk 依赖），也可以使用云端测试来了解云函数调用数据库的情况。
+            </view>
+            <view class="weui-article__image">
+                <image mode="widthFix" src="../../../image/clouddatabase.png"></image>
+            </view>
+        </view>
+    </view>
+</view>

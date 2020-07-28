@@ -1,0 +1,199 @@
+/* pages/home/home.wxss */
+#wxmlinfo,#studyweapp{
+  font-size: 16px;
+  font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+  line-height: 1.6;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 15px;
+  padding-left: 150px;
+}
+#wxmlinfo{
+  background-color: #dae7d9;
+}
+#studyweapp{
+  background-image: url();
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.title{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0.9em;
+}
+.item-title{
+  font-size: 18px;
+  font-weight: 500;
+  color: #c60;
+  margin-bottom: 0.9em;
+  border-left: 3px solid #c60;
+  padding-left: 15px;
+}
+.item-desc{
+  color: #333;
+}
+.item-link{
+  margin: 20px;
+  padding: 10px 15px;
+  background-color: #4ea6ec;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.event-list{
+  background-color: #fafbfc;
+  padding: 20px 0;
+  }
+.event-link{
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow:5rpx 8rpx 10rpx rgba(53,178,225,0.26);
+  overflow: hidden;
+}
+.event-img image{
+  width: 100%;
+  }
+.event-content{
+  padding: 25rpx;
+  }
+.event-title{
+  line-height: 1.7em;
+  }
+.event-desc{
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5em;
+  font-weight: 200;
+  }
+.event-box{
+  margin-top: 15px;
+  overflow: hidden;
+  }
+.event-address,.event-time{
+  float: left;
+  color: #cecece;
+  font-size: 12px;
+  padding-right: 15px;
+  }
+
+.list-item{
+  background-color: #82c2f7;
+  height: 100px;
+  text-align: center;
+  border:1px solid #bdd2f8;
+  flex: 1;
+  display: flex;
+  align-items: center;/*垂直居中*/
+  justify-content: center;/*水平居中*/
+}
+.flex-box{
+  display: flex;
+}
+.hw__h3{
+  color: #1772cb;
+}
+#news-list .news-item{
+  margin: 15rpx;
+  padding: 15rpx;
+  border-bottom: 1rpx solid #ccc
+}
+#news-list .news-img image{
+  width: 100%;
+}
+#news-list .news-desc{
+  width: 100%;
+}
+/*CSS 的渐变 Gradient*/
+.gradient-display{
+  background-image: linear-gradient(19deg, rgb(33, 212, 253) 0%, rgb(183, 33, 255) 100%);
+  width: 100vw;
+  height: 100vh;
+}
+/*Filter 滤镜*/
+.filter-display img{
+  width: 150px;height: auto;
+}
+.blur{
+  filter: blur(2px);
+}
+.grayscale{
+  filter: grayscale(100%);
+}
+.opacity{
+  filter: opacity(10%);
+}
+.multiple{
+  filter: blur(8px) grayscale(90%) opacity(25%);
+}
+/*图片由灰色变为彩色*/
+.grayscale{
+  filter: grayscale(90%);
+}
+.grayscale-hover{
+  filter:grayscale(0);
+}
+/*高斯模糊背景*/
+.blur-bg {
+  width: 750rpx;height: 300rpx;overflow: hidden;
+  background: url(https://hackwork-1251009918.cos.ap-shanghai.myqcloud.com/handbook/html5/blurimg.jpg);
+  background-size: cover;
+  position: fixed;
+  filter: blur(15px);
+  z-index: -1;
+}
+.user-img{
+  width: 750rpx;height: 300rpx;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.user-img image {
+width: 80rpx;height: 80rpx;
+border-radius: 100%;
+}
+/*过渡属性 Transition ：背景颜色的变化*/
+.box{
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+}
+.bg-color{
+  background-color:green;
+}
+.bg-color-hover{
+  background-color: yellow;
+  transition: background-color 5s ease-out 3s;
+}
+/*动画属性 Animation*/
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+.fadeIn{
+  animation: 4s linear 0s infinite alternate fadeIn;
+}
+/*小程序组件：cover 效果*/
+.covertext{
+  width: 500rpx;
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top:20rpx;
+  left:10rpx;
+}
+.coverimg{
+  width:100rpx;height:23rpx;
+  position: absolute;
+  right:10rpx;
+  top:10rpx;
+}
+.weui-grid{
+  width: 25%;
+  padding: 2px 2px;
+}

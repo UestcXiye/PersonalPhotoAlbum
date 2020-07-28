@@ -1,0 +1,16 @@
+<!--pages/photoedit/photoeditor/photoeditor.wxml-->
+<view class="scene">
+  <view class="scene-editor" id="scene-editor">
+    <canvas canvas-id="scene" class="canvas" style="width: {{canvasWidth}}px; height: {{canvasHeight}}px;" 
+    catchtouchstart="touchStart"
+    catchtouchmove="touchMove"
+    catchtouchend="touchEnd"
+    ></canvas>
+  </view>
+  <swiper class="scene-template" display-multiple-items="5" previous-margin="10rpx">
+    <swiper-item wx:for="{{swiperList}}" wx:key="index" bindtap="onTapScene" data-index="{{index}}" class="{{currentNewScene === index ? 'scene-item-active':''}}">
+      <image src="{{item.image}}" mode="aspectFit"></image>
+    </swiper-item>
+  </swiper>
+  <button class="scene-button" type="primary" bindtap="onSave">点击保存</button>
+</view>

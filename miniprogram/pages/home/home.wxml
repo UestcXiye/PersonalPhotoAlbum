@@ -1,0 +1,162 @@
+<view class="weui-flex">
+    <view class="weui-flex__item">
+        <view class="placeholder">
+            <view class="event-list">
+                <navigator url="/pages/home/imgshow1/imgshow1" class="event-link">
+                    <view class="event-img">
+                        <image mode="widthFix" src="https://image-1302635214.cos.ap-chengdu.myqcloud.com/image1-8.jpg">
+                        </image>
+                    </view>
+                    <view class="event-content">
+                        <view class="event-title">靛青</view>
+                        <view class="event-desc">深蓝，带着跳脱的亮光，美丽的像是沉浸在无尽的静谧中的海水</view>
+                        <view class="event-box">
+                            <view class="event-address">广西 北海</view>
+                            <view class="event-time">2016年7月28日</view>
+                        </view>
+                    </view>
+                </navigator>
+            </view>
+        </view>
+    </view>
+    <view class="weui-flex__item">
+        <view class="placeholder">
+            <view class="event-list">
+                <navigator url="/pages/home/imgshow2/imgshow2" class="event-link">
+                    <view class="event-img">
+                        <image mode="widthFix" src="https://image-1302635214.cos.ap-chengdu.myqcloud.com/image2-1.jpg">
+                        </image>
+                    </view>
+                    <view class="event-content">
+                        <view class="event-title">黄昏</view>
+                        <view class="event-desc">黄昏是生命的隐语，引导着人们去领悟人生那一份平静与淡泊</view>
+                        <view class="event-box">
+                            <view class="event-address">希腊 圣托里尼岛</view>
+                            <view class="event-time">2016年9月5日</view>
+                        </view>
+                    </view>
+                </navigator>
+            </view>
+        </view>
+    </view>
+</view>
+
+<view class="weui-flex">
+    <view class="weui-flex__item">
+        <view class="placeholder">
+            <view class="event-list">
+                <navigator url="/pages/home/imgshow3/imgshow3" class="event-link">
+                    <view class="event-img">
+                        <image mode="widthFix" src="https://image-1302635214.cos.ap-chengdu.myqcloud.com/image3-3.jpg">
+                        </image>
+                    </view>
+                    <view class="event-content">
+                        <view class="event-title">油画</view>
+                        <view class="event-desc">想用每日的温柔和月亮，来换取生活的一束光</view>
+                        <view class="event-box">
+                            <view class="event-address">荷兰 阿姆斯特丹</view>
+                            <view class="event-time">2017年3月3日</view>
+                        </view>
+                    </view>
+                </navigator>
+            </view>
+        </view>
+    </view>
+    <view class="weui-flex__item">
+        <view class="placeholder">
+            <view class="event-list">
+                <navigator url="/pages/home/imgshow4/imgshow4" class="event-link">
+                    <view class="event-img">
+                        <image mode="widthFix" src="https://image-1302635214.cos.ap-chengdu.myqcloud.com/image4-6.jpg">
+                        </image>
+                    </view>
+                    <view class="event-content">
+                        <view class="event-title">云彩</view>
+                        <view class="event-desc">白云来去，时起时伏，忽如汪洋一片，忽如大地铺絮</view>
+                        <view class="event-box">
+                            <view class="event-address">云南 昆明</view>
+                            <view class="event-time">2017年8月15日</view>
+                        </view>
+                    </view>
+                </navigator>
+            </view>
+        </view>
+    </view>
+</view>
+
+<view class="weui-flex">
+    <view class="weui-flex__item">
+        <view class="placeholder">
+            <view class="event-list">
+                <navigator url="/pages/home/imgshow5/imgshow5" class="event-link">
+                    <view class="event-img">
+                        <image mode="widthFix" src="https://image-1302635214.cos.ap-chengdu.myqcloud.com/image5-4.jpg">
+                        </image>
+                    </view>
+                    <view class="event-content">
+                        <view class="event-title">杪夏</view>
+                        <view class="event-desc">青春是暗恋与昏睡交织的夏天</view>
+                        <view class="event-box">
+                            <view class="event-address">意大利 托斯卡纳</view>
+                            <view class="event-time">2018年6月17日</view>
+                        </view>
+                    </view>
+                </navigator>
+            </view>
+        </view>
+    </view>
+    <view class="weui-flex__item">
+        <view class="placeholder">
+            <view class="event-list">
+                <navigator url="/pages/home/imgshow6/imgshow6" class="event-link">
+                    <view class="event-img">
+                        <image mode="widthFix" src="https://image-1302635214.cos.ap-chengdu.myqcloud.com/image6-5.jpg">
+                        </image>
+                    </view>
+                    <view class="event-content">
+                        <view class="event-title">雪山</view>
+                        <view class="event-desc">你来时满山银装，你走后时间不老</view>
+                        <view class="event-box">
+                            <view class="event-address">新疆 天山</view>
+                            <view class="event-time">2018年11月11日</view>
+                        </view>
+                    </view>
+                </navigator>
+            </view>
+        </view>
+    </view>
+</view>
+
+<view class="weui-flex">
+    <view class="weui-flex__item">
+        <view class="placeholder">
+            <view class="event-list">
+                <navigator url="/pages/photoedit/photoedit" class="event-link">
+                    <view class="event-img">
+                        <image mode="widthFix" src="../../image/imagedeal.png">
+                        </image>
+                    </view>
+                    <view class="event-content">
+                        <view class="event-title">图片编辑</view>
+                        <view class="event-desc"></view>
+                    </view>
+                </navigator>
+            </view>
+        </view>
+    </view>
+    <view class="weui-flex__item">
+        <view class="placeholder">
+            <view class="event-list">
+                <navigator url="/pages/programlab/programlab" class="event-link">
+                    <view class="event-img">
+                        <image mode="widthFix" src="../../image/tobecontinue.png">
+                        </image>
+                    </view>
+                    <view class="event-content">
+                        <view class="event-title">开发实验室</view>
+                    </view>
+                </navigator>
+            </view>
+        </view>
+    </view>
+</view>

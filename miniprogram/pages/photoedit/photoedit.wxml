@@ -1,0 +1,5 @@
+<!--pages/photoedit/photoedit.wxml-->
+<view class="body">
+  <image class="bg" src="../../image/background.png" mode="widthFix"></image>
+  <button class="upload" type="primary" bindtap="onUpload">选择图片</button>
+</view>

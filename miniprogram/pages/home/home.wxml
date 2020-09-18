@@ -131,14 +131,18 @@
     <view class="weui-flex__item">
         <view class="placeholder">
             <view class="event-list">
-                <navigator url="/pages/photoedit/photoedit" class="event-link">
+                <navigator url="/pages/home/imgshow7/imgshow7" class="event-link">
                     <view class="event-img">
-                        <image mode="widthFix" src="../../image/imagedeal.png">
+                        <image mode="widthFix" src="https://image-1302635214.cos.ap-chengdu.myqcloud.com/image7-1.jpg">
                         </image>
                     </view>
                     <view class="event-content">
-                        <view class="event-title">图片编辑</view>
-                        <view class="event-desc"></view>
+                        <view class="event-title">海浪</view>
+                        <view class="event-desc">流年的浪花总是涤荡在渺远的心际</view>
+                        <view class="event-box">
+                            <view class="event-address">美国 夏威夷</view>
+                            <view class="event-time">2019年7月12日</view>
+                        </view>
                     </view>
                 </navigator>
             </view>
@@ -147,13 +151,14 @@
     <view class="weui-flex__item">
         <view class="placeholder">
             <view class="event-list">
-                <navigator url="/pages/programlab/programlab" class="event-link">
+                <navigator url="/pages/photoedit/photoedit" class="event-link">
                     <view class="event-img">
-                        <image mode="widthFix" src="../../image/tobecontinue.png">
+                        <image mode="widthFix" src="../../image/imagedeal.png">
                         </image>
                     </view>
                     <view class="event-content">
-                        <view class="event-title">开发实验室</view>
+                        <view class="event-title">图片编辑</view>
+                        <view class="event-desc"></view>
                     </view>
                 </navigator>
             </view>

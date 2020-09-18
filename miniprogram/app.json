@@ -7,13 +7,10 @@
       "pages/home/imgshow4/imgshow4",
       "pages/home/imgshow5/imgshow5",
       "pages/home/imgshow6/imgshow6",
+      "pages/home/imgshow7/imgshow7",
     "pages/photoedit/photoedit",
       "pages/photoedit/photoeditor/photoeditor",
-    "pages/logs/logs",
-    "pages/programlab/programlab",
-      "pages/programlab/testcloudfunction/login",
-      "pages/programlab/testdatabase/testdatabase",
-      "pages/programlab/testupload/testupload"
+    "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"dark",
